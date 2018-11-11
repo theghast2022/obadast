@@ -10,7 +10,7 @@ var prefix = "T";
 
 
     const devs = ["388357326614167563"];
-const adminprefix = ["$"];
+const adminprefix = ["*"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
