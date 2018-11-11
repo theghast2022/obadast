@@ -9,7 +9,7 @@ var prefix = "T";
 
 
 
-    const devs = ["388357326614167563"];
+    const devs = ["295520741007294464"];
 const adminprefix = ["*"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
